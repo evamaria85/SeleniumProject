@@ -26,5 +26,6 @@ public class HomePageTest {
     public void test1(){
         System.out.println("this first test");
         PageFactory.initElements(Browser.getDriver(), HomePage.class).logIn();
+        System.out.println("testing git");
     }
 }
